@@ -1,0 +1,27 @@
+.subadmin-wrongpath{
+    margin: auto;
+    width: 350px;
+    /* background-color: rgb(73, 41, 0); */
+}
+
+.wrong-path-url{
+    width: 300px;
+    background-color: #0795a1;
+    margin: auto;
+    margin-top: 25% !important;
+    border-radius: 5px;
+    padding: 15px;
+    color: azure;
+}
+
+.relogin-link{
+    background-color: rgba(24, 24, 112, 0.884);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100% !important;
+    text-decoration: none;
+}
+
+

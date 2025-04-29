@@ -1,0 +1,202 @@
+.subadmin-panel{
+    /* background-color: #024950; */
+
+    background-color: #314974;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    max-height: fit-content;
+    padding-bottom: 20px;
+}
+
+.tuckit-navbar{
+    background-color: #0e2141;
+    color: white;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-logo{
+    height: 26px;
+    padding: 10px;
+    margin-top: 10px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar-logo:hover {
+    /* background-color: #24395e; */
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+.tuckit-navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.page-title {
+    padding-top: 100px !important;
+    margin: 0px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.userinput-form-container{
+    width: 300px;
+    height: fit-content;
+    margin: 25px auto;
+    /* box-shadow: 0px 0px 4px 2px #fff; */
+    padding: 20px;
+    border-radius: 5px;
+    /* background-color: #AFDDE5; */
+    background-color: #919cb3;
+}
+
+.tuckitadmin-form-header{
+    font-weight: 500;
+    font-size: 20px;
+    color: #002124;
+    margin-bottom: 25px;
+}
+
+.style-form-subitBtn {
+    background-color: #4b001d !important;
+}
+
+.navbar-content-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-logout-btn {
+    color: rgb(152, 255, 216) !important;
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    height: 50px !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 2px;
+    transition: .1s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-logout-btn:active {
+    color: rgb(247, 68, 103) !important;
+}
+
+
+.verify-user-datacontainer{
+    max-width: fit-content;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    /* background-color: #AFDDE5; */
+    background-color: #919cb3;
+    color: #002124;
+    border-radius: 5px;
+}
+
+.photo-verification-container{
+    min-width: 260px;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 450px;
+}
+
+.locker-user-img{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid green;
+}
+
+
+.verify-container-outerlayer{
+    margin: 20px;
+}
+
+.close-btn-style {
+    color: #ff623b !important;
+    /* background-color:#024950 !important ; */
+    background-color:#5f2929 !important ;
+    float: right;
+    transition: .2 ease;
+}
+
+.close-btn-style:hover {
+    /* transform: scale(1.1); */
+    color: #ff491c !important;
+    background-color:#7e92bb !important ;
+}
+
+.dailogue-headers{
+    background-color: #024950;
+    color: #fadf95;
+    text-align: center;
+    margin: 0px !important;
+    padding: 15px !important;
+}
+
+.dailogue-description{
+    background-color: #4398a0;
+    color: #ffeee6 !important;
+    text-align: center;
+    padding: 25px !important;
+}
+
+.action-btn-container{
+    padding: 1px !important;
+    margin: 0px !important;
+    background-color: #024950;
+}
+
+.dailogue-btns {
+    background-color: #462f1f !important;
+    color: #ffffff !important;
+}
+
+.lockerDialogu-open-success-img{
+    width: 80px;
+    margin: auto;
+}
+
+.dailogue-headers-fail{
+    background-color: #501b02;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px !important;
+    padding: 15px !important;
+}
+
+
+.dailogue-description-failer{
+    background-color: #a05643;
+    color: #dddddd !important;
+    text-align: center;
+    padding: 25px !important;
+}
+
+.action-btn-container-fail{
+    padding: 1px !important;
+    margin: 0px !important;
+    background-color: #500e02;
+}
+
+.dailogue-btns-fail{
+    background-color: #ffecdd !important;
+    color: #660000 !important;
+}
+
+
